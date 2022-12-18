@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Fonte_h1;
+    src: url(Fonte/panpizza.ttf);
+}
+
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    /* font-size: 16px */
+}
+
+
+
+header{
+    height: 100px;
+    width: 99vw;
+    background-color: rgb(248, 7, 7);
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-image: url(Images/Bandeira-transp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+header > h1{
+    text-align: center;
+
+}
+
+header > nav{
+    /* background-color: black; */
+    margin-top: 47.2px;
+    height: 40px;
+    padding: 15px 0px 0px 0px;
+}
+
+header > nav > a{
+    margin-top: 2px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+
+}
+
+header > nav > a:hover{
+    border-radius: 8px 8px 0px 0px;
+    background-color: green;
+    text-decoration: underline;
+
+}
+
+body{
+    /* height: 100vh; */
+    border: 1px solid black;
+
+}
+
+main{
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    /* padding: 10px; */
+    margin-top: 20px;
+    
+}
+
+#historia{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+section{
+    /* background-color: black; */
+    margin: 20px 0px 20px 0px;
+    width: 98vw;
+}
+
+p{
+    padding: 0px 10px 0px 10px;
+    text-indent: 10px;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
+section#img1{
+    width: 500px;
+    background-image: url(Images/margerita_full.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    height: 400px;
+    box-shadow: 4px 1px 4px 0px black inset;
+    
+
+}  
+
+section#img1 > p{
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.855);
+    padding: 10px;
+}
+
+aside{
+    margin: 10px 20px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+    width: 400px;
+    background-color: green;
+    margin-left: 20px;
+    height: 300px;
+}
+
+aside > p{
+    color: white;
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+aside > h2{
+    padding-top: 10px;
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+audio{
+    padding: 0px 10px 0px 10px;
+    margin-top: 100px;
+
+}
+
+footer{
+    background-color: green;
+    width: 100vw;
+}
